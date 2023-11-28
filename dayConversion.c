@@ -1,4 +1,4 @@
-//WAP to convert no. of days into year, month and remaining days.
+//WAP to convert no. of days into year, month and remaining days
 #include<stdio.h>
 
 int main(){
