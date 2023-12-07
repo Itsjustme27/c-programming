@@ -65,10 +65,10 @@ void determineWinner(int player_Choice, int comp_Choice){
     }
     
 
-    if (playerChoice == compChoice)
+    if (player_Choice == comp_Choice)
     {
         printf("It's a tie!");
-    }else if((playerChoice == 1 && compChoice == 3) || (playerChoice == 2 && compChoice == 1) || (playerChoice == 3 && compChoice == 2)){
+    }else if((player_Choice == 1 && comp_Choice == 3) || (player_Choice == 2 && comp_Choice == 1) || (player_Choice == 3 && comp_Choice == 2)){
         printf("Player wins! Congratulations!");   
     }else{
         printf("Computer wins!Try again!");
