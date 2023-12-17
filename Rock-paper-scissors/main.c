@@ -10,6 +10,7 @@ int main(){
     //store compChoice() in comp_choice variable.
     int comp_choice = compChoice();
 
+
     //Call the function to get the results!
     determineWinner(player_choice,comp_choice);
     return 0;
