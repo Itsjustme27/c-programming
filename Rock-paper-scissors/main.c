@@ -3,6 +3,18 @@
 #include<stdlib.h>
 #include<time.h>
 
+int main(){
+    //store playerChoice() in player_choice variable.
+    int player_choice = playerChoice();
+
+    //store compChoice() in comp_choice variable.
+    int comp_choice = compChoice();
+
+    //Call the function to get the results!
+    determineWinner(player_choice,comp_choice);
+    return 0;
+}
+
 //function to get player's choice
 int playerChoice(){
     int player_choice;
@@ -75,14 +87,3 @@ void determineWinner(int player_Choice, int comp_Choice){
     }
 }
 
-int main(){
-    //store playerChoice() in player_choice variable.
-    int player_choice = playerChoice();
-
-    //store compChoice() in comp_choice variable.
-    int comp_choice = compChoice();
-
-    //Call the function to get the results!
-    determineWinner(player_choice,comp_choice);
-    return 0;
-}
