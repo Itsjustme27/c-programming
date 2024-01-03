@@ -3,7 +3,7 @@
 
 int main(){
     int basic = 15000;
-    int gross, ssf = 0.30 * basic, allowance = 0.40 * basic;
+    int gross, ssf = 0.31 * basic, allowance = 0.40 * basic;
     gross = basic + ssf + allowance;
     printf("Gross Salary: %d\n",gross);
     return 0;
