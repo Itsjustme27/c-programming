@@ -6,14 +6,9 @@ int main(){
     char c;
     double d;
 
-    int i = sizeof(a);
-    int f = sizeof(b);
-    int z = sizeof(c);
-    int x = sizeof(d);
-
-    printf("Integer: %d\n", i);
-    printf("Float: %d\n", f);
-    printf("Character: %d\n", c);
-    printf("Double: %d", x);
+    printf("Integer: %d\n", sizeof(a));
+    printf("Float: %d\n", sizeof(b));
+    printf("Character: %d\n", sizeof(c));
+    printf("Double: %d", sizeof(d));
     return 0;
 }
