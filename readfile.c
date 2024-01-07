@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main()
 {
     char ch;
@@ -13,5 +13,4 @@ void main()
         printf("%c", ch);
     }
     fclose(fp);
-    getch();
 }
