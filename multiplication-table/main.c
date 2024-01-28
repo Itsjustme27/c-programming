@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void main() {
-    int a,i;
+    int num,i;
     printf("Enter a number: ");
-    scanf("%d", &a);
+    scanf("%d", &num);
     for(i = 1 ; i<= 10; i++){
-        printf("%d * %d = %d\n", a, i , a*i);
+        printf("%d * %d = %d\n", num, i , num*i);
     }
 }
