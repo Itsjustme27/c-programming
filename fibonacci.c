@@ -1,13 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
+
 int fib(int);
-void main(){
+int main(){
     int i;
     printf("Fibonacci series: ");
     for(i=0;i<10;i++){
-        printf("%d", fib(i));
+        printf("%d\t", fib(i));
     }
-    getch();
+    return 0;
 }
 int fib(int n){
     if(n==0)
