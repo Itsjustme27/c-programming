@@ -6,8 +6,8 @@ void main() {
     printf("Enter the radius of circle: ");
     scanf("%f", &r);
     if (r > 0){
-        printf("\nThe entered circle is real.\n");
+        printf("\nThe entered circle radius %f is real.\n", r);
     }else{
-        printf("\nThe entered circle is imaginary.");
+        printf("\nThe entered circle radius %f is imaginary.", r);
     }
 }
