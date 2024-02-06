@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-void main(){
-    int a = 1,b =2;
-    printf("Series of numbers\n");
-    a  = a * 10 + b;
-    b = b + 1;
-    printf("%d%d\n", a,b);
-    a = a * 10 + b;
-    b = b + 1;
-    printf("%d%d", a,b);
+void main() {
+    int i,j;
+    for (i = 1; i <= 5; i++){
+        for (j = 1; j <= i; j++){
+            printf("%d", &i);
+        }
+        printf("\n");
+    }
 }
