@@ -6,7 +6,7 @@ void main() {
     int rem, sum, n,a;
     printf("Enter a three digit number: ");
     scanf("%d", &n);
-    a == n;
+    a = n;
     while (n != 0) {
         rem = n % 10;
         sum = sum + pow(rem,3);
