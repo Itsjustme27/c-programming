@@ -1,9 +1,9 @@
-/*WAP to check if whether the input triangle is a right-angled triangle or not(using switch case)*/
+/*WAP to check if whether the input triangle is a rigqht-angled triangle or not(using switch case)*/
 #include <stdio.h>
 
 void main(){
     int p,h,b;
-    printf("Enter the length of the hypotenuse: ");
+    printf("Enter the length of the hypotenuse: "); 
     scanf("%d",&h);
     printf("Enter the length of base: ");
     scanf("%d", &b);
