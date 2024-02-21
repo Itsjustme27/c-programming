@@ -1,4 +1,4 @@
-//WAP to input the elements of array then print ascending order.
+//WAP to input the elements of an array then print descending order.
 #include <stdio.h>
 
 void main() {
@@ -16,7 +16,7 @@ void main() {
             }
         }
     }
-    printf("array in ascending order: ");
+    printf("array in descending order: ");
     for(i = 0; i < 5; i++){
         printf("%d\t", a[i]);
     }
