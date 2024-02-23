@@ -1,4 +1,4 @@
-//Factorial 
+//Factorial non-return type.
 
 #include <stdio.h>
 
@@ -13,10 +13,9 @@ int main() {
 }
 
 void fact(int n){
-    int f = fact(n * (n-1));
-    if(n==0){
-        printf("1");
-    }else{
-        printf("%d", f);
+    int b , p=1;
+    for(b = 1; b <= n ; b++){
+        p = p*b;
     }
+    printf("The factorial is: %d", p);
 }
