@@ -5,16 +5,17 @@
 int fact(int n);
 
 int main() {
-    int n, f;
-    printf("Enter a number: ");
+    int n;
+    printf("Enter a number : ");
     scanf("%d", &n);
-    f = fact(n);
-    printf("\nFactorial of %d is %d.", n, f);
+    printf("The factorial is : %d", fact(n));
     return 0;
 }
+
 int fact(int n){
-    if(n == 0)
-        return 1;
-    else
-        return fact(n-1) * n;
+    int f = 1, i;
+    for(i = 1; i <= n; i++){
+        f *= i;
+    }
+    return f;
 }
