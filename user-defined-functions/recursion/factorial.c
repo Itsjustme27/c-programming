@@ -8,7 +8,7 @@ int main() {
     int n;
     printf("Enter a number : ");
     scanf("%d", &n);
-    printf("The factorial is : %d", fact(n));
+    printf("The factorial of %d is : %d", n,fact(n));
     return 0;
 }
 int fact(int n){
