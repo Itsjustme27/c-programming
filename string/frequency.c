@@ -11,7 +11,7 @@ int main()
     printf("Enter a character: ");
     scanf("%c", &freqChar);
     
-    for(int i = 0; c[i] != '\o'; i++){
+    for(int i = 0; c[i] != '\0'; i++){
         if(c[i] == freqChar){
             count++;
         }
