@@ -8,10 +8,12 @@ void main() {
     fp = fopen("record.txt", "a");
     printf("Enter the roll number, age and name:\n ");
     for(i = 0; i < 5; i++){
-        scanf("%d %d %s", &roll[i], &age[i], name[i]);
+        scanf("%d", &roll[i]);
+        scanf("%d", &age[i]);
+        scanf("%s", name);
     }
     for(i = 0; i < 5; i++){
-        fprintf(fp, "%d %d %s", roll[i], age[i], name[i]);
+        fprintf(fp, "\n%d\t %d\t %s\t", roll, age, name);
     }
     fclose(fp);
 }
